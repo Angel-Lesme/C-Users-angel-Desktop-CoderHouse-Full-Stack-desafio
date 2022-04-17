@@ -1,0 +1,198 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width:max-content;
+    height: max-content;
+    padding: 7px;
+    background-color:#f7f7f7;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+
+.grid-contenedor {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 5px;
+}
+
+nav{
+    background-color:#DBDBDB;
+}
+nav > ul{
+list-style: none;
+display: -webkit-inline-box;
+margin-left: 280px;
+margin-right: 300px;
+}
+
+nav > ul > li{
+    margin: 50px;
+
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+.zapatillas{
+
+    background-image: url("../img/background.jpg");
+    
+}
+
+img{
+    
+    height:inherit;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    border-radius: 20px;
+}
+
+.marcas{
+    font-size: xx-large;
+ margin: 500px;
+}
+
+
+table{
+    display: inherit;
+    border: solid 1px;
+    margin:20px;
+    border-spacing: 15px;
+}
+
+tbody{
+    display: inherit;
+    text-align: -webkit-center;
+}
+
+tr{
+    padding: 5px;
+    margin: 15px;
+}
+
+footer{
+    margin: 10px;
+}
+
+div{
+    display: -webkit-inline-box;
+}
+
+div > ul{
+    list-style: none;
+    padding-left: 0%;
+    padding-bottom: 0%;
+    margin: 20px;
+}
+
+div> table{
+float: left;
+padding: 0%;
+margin-left: 800px;
+}
+
+
+/* HOMBRES / MUJERES  */
+
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.conteiner-card{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.conteiner-card .card{
+    background: white;
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.conteiner-card .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0,0.2);
+}
+
+.conteiner-card .card img{
+    width: 330px;
+    height: 220px;
+    margin:0%;
+}
+
+.card h4{
+    font-weight:400;
+    font-size: 23px;
+    margin-left: 15px;
+}
+
+.conteiner-card .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.conteiner-card .card .precio{
+    font-weight: 600;
+    margin-top: initial;
+    font-size: x-large;
+}
+
+
+
+/* Contactos */
+
+form{
+    text-align: center;
+}
+
+footer{
+    border-top: solid 2px black;
+}
+
+/* Media Query*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    html {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    body{
+        width:max-content;
+        height: max-content;
+        padding: 7px;
+        background-color:#f7f7f7;
+        line-height: 1.6;
+        letter-spacing: 0.03em;
+    }
+
+    nav > ul > li{
+        margin: 5px;
+    }
+}

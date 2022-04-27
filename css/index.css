@@ -1,120 +1,3 @@
-html{
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-}
-body{
-    width:100%;
-    height: 100%;
-    padding: 0px;
-    background-color:#f7f7f7;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
-}
-
-.grid-contenedor {
-    display: grid;
-    grid-template-rows: auto auto auto auto;
-    gap: 5px;
-}
-
-nav{
-    background-color:#DBDBDB;
-    width: 100%;
-}
-
-nav > ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-
-nav > ul > li{
-    margin: 50px;
-
-}
-
-nav > ul > li > a{
-    text-decoration: none;
-    text-align: center;
-    color: black;
-}
-
-a:hover{
-    color: blue;
-    text-decoration: none;
-}
-
-.carousel{
-    width: 100%;
-    height: 100%;
-}
-
-.carousel-item > img{
-   margin: 0%;
-}
-
-img{
-    
-    height:inherit;
-    margin-left: 25rem;
-    margin-right: 25rem;
-    border-radius: 20px;
-}
-
-.marcas{
-    font-size: xx-large;
- margin: 500px;
-}
-
-.marcas-fav > .container-fluid{
-    width: max-content;
-}
-
-.container-fluid > .row{
-    width: 100%;
-    margin-left: 8%;
-}
-
-.row{
-    align-items: center;
-}
-
-.imagen-descripcion-de-marcas{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-}
-.imagen-descripcion-de-marcas > .container-fluid {
-    padding: 8px;
-    width: 90%;
-}
-
-.col-2 > img{
-    margin-left: 6em;
-    margin-right: 6em;
-    border-radius: 0%;
-}
-
-.row > .col{
-    width: 0%;
-    height: auto;
-}
-
-.col > img{
-    margin-left: 1em;
-    margin-right: 1em;
-}
-
-div{
-    display: -webkit-inline-box;
-}
 
 /* HOMBRES / MUJERES  */
 
@@ -122,6 +5,8 @@ div{
     text-align: center;
     font-size: 40px;
 }
+
+/* CARTAS DE PRODUCTOS */
 
 .conteiner-card{
     width: 100%;
@@ -188,18 +73,6 @@ span{
 
 form{
     text-align: center;
-}
-
-/* Footer */
-
-footer{
-    margin: 10px;
-    border-top: solid 2px black;
-}
-
-footer > div > .row{
-    width: 100%;
-    margin-left: 80%;
 }
 
 /* Media Query*/

@@ -174,3 +174,10 @@ form .row {
   margin: 0px; }
   form .row .col {
     margin: 10px 0px 10px 0; }
+
+.comentario {
+  width: auto; }
+  .comentario textarea {
+    resize: horizontal;
+    width: 98%;
+    margin: 10px; }

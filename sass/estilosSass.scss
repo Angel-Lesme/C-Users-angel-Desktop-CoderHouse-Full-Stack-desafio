@@ -267,3 +267,12 @@ form{
         }
     }
 }
+
+.comentario{
+    width: auto;
+    textarea{
+        resize: horizontal;
+        width: 98%;
+        margin: 10px;
+    }
+}

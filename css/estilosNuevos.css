@@ -43,7 +43,7 @@ nav {
 
 /* MARCAS FAV */
 .marcas-fav .container-fluid {
-  width: 1498.89px; }
+  width: 1598.89px; }
   .marcas-fav .container-fluid .row {
     width: 100%;
     margin-left: 4%;
@@ -62,7 +62,7 @@ nav {
   align-items: center;
   width: 90%; }
   .imagen-descripcion-de-marcas .container-fluid {
-    padding: 1px;
+    padding: 5px;
     width: 90%;
     margin: 8px; }
     .imagen-descripcion-de-marcas .container-fluid .row .col {

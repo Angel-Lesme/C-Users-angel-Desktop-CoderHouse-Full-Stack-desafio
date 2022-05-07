@@ -42,17 +42,15 @@ nav {
   margin: 0%; }
 
 /* MARCAS FAV */
-.marcas-fav .container-fluid {
-  width: 1498.89px; }
-  .marcas-fav .container-fluid .row {
-    width: 100%;
-    margin-left: 4%;
-    align-items: center; }
-    .marcas-fav .container-fluid .row .col-2 img {
-      height: inherit;
-      margin-left: 6em;
-      margin-right: 6em;
-      border-radius: 0%; }
+.marcas-fav .container-fluid .row {
+  width: 100%;
+  margin-left: 4%;
+  align-items: center; }
+  .marcas-fav .container-fluid .row .col-2 img {
+    height: inherit;
+    margin-left: 6em;
+    margin-right: 6em;
+    border-radius: 0%; }
 
 /* IMAGENES DE DESCRIPCION DE MARCAS */
 .imagen-descripcion-de-marcas {
@@ -67,7 +65,9 @@ nav {
     margin: 8px; }
     .imagen-descripcion-de-marcas .container-fluid .row .col {
       width: 0%;
-      height: auto; }
+      height: auto;
+      margin: 0 0 0 28px;
+      padding: 0%; }
       .imagen-descripcion-de-marcas .container-fluid .row .col img {
         margin-left: 1em;
         margin-right: 1em;

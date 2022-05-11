@@ -29,9 +29,6 @@ nav {
         text-decoration: none;
         text-align: center;
         color: black; }
-        nav ul li a a:hover {
-          color: blue;
-          text-decoration: none; }
 
 /* slider */
 .carousel {
@@ -151,7 +148,8 @@ footer div .row {
 
 /* Contactos */
 .title-contactos {
-  margin: 0 5px 0 11px; }
+  margin: 0 5px 0 11px;
+  text-align: center; }
 
 .whatsap {
   margin: 0 0 0 12px; }

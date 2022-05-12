@@ -63,7 +63,8 @@ nav {
   .imagen-descripcion-de-marcas .container-fluid {
     padding: 1px;
     width: 100%;
-    margin: 8px; }
+    margin: 8px;
+    margin-left: 60px; }
     .imagen-descripcion-de-marcas .container-fluid .row .col {
       width: 0%;
       height: auto;

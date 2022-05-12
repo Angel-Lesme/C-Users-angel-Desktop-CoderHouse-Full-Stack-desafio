@@ -36,11 +36,12 @@ nav {
   height: 100%; }
 
 .carousel-item img {
-  margin: 0%; }
+  margin: 0%;
+  width: 100%; }
 
 /* MARCAS FAV */
 .marcas-fav .container-fluid .row {
-  width: 100%;
+  width: 90%;
   margin-left: 4%;
   align-items: center; }
   .marcas-fav .container-fluid .row .col-2 img {
@@ -48,6 +49,9 @@ nav {
     margin-left: 6em;
     margin-right: 6em;
     border-radius: 0%; }
+
+.marcas-fav .container-fluid .row .adidas-logo {
+  height: 113px; }
 
 /* IMAGENES DE DESCRIPCION DE MARCAS */
 .imagen-descripcion-de-marcas {

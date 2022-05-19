@@ -53,7 +53,7 @@ nav {
       margin-right: 6em;
       border-radius: 0%; }
 
-.marcas-fav .container-fluid .row .adidas-logo {
+.marcas-fav .container-fluid .row .adidas-logo a {
   height: 113px; }
 
 /* IMAGENES DE DESCRIPCION DE MARCAS */

@@ -194,7 +194,8 @@ form .row {
     margin: 10px 0px 10px 0; }
 
 .comentario {
-  width: auto; }
+  width: auto;
+  text-align: center; }
   .comentario textarea {
     resize: horizontal;
     width: 98%;

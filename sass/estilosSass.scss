@@ -288,3 +288,131 @@ form{
         margin: 10px;
     }
 }
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    nav{
+        background-color:#DBDBDB;
+        width: 100%;
+            ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+                li{
+                margin: 50px;
+                    a{
+                    text-decoration: none;
+                    text-align: center;
+                    color: black;
+                }
+            }   
+        }    
+    }
+    .marcas-fav{
+        .container-fluid{
+            display: none;
+        }
+    
+    }
+
+    .imagen-descripcion-de-marcas{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        .container-fluid {
+            padding: 1px;
+            width: 100%;
+            margin: 8px;
+            margin-left: -32px;
+            .row{
+                .col{
+                    width: 0%;
+                    height: auto;
+                    margin: 0 0 0 28px;
+                    padding: 0%;
+                    img{
+                        margin-left: 1em;
+                        margin-right: 1em;
+                        border-radius: 20px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    
+    .imagen-descripcion-de-marcas{
+        .container-fluid{
+            .row{
+                .col-1{
+                    width: 286px;
+                    img{
+                        border-radius: 20px;
+                        width: 51%;
+                        margin: 0px 0px 0px 101px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 10px;
+        border-top: solid 2px black;
+        .texto-footer{
+            padding-right: 0%;
+        }
+    }
+    
+    footer{
+        div{
+            .row{
+                width: 100%;
+                margin-left: 0%;
+                .col{
+                    display: contents;
+                    img{
+                        margin: 0 0 0 -16px;
+                    }
+                }
+            }
+        }
+    }
+    
+    /* HOMBRES / MUJERES / MARCAS */
+
+    .conteiner-card{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: auto;
+        .card{
+            background: white;
+            width: 304px;
+            height: 430px;
+            border-radius: 8px;
+            box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+            overflow: hidden;
+            margin: 0 0px 20px 11px;
+            text-align: center;
+            transition: all 0.25s;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+    }
+}

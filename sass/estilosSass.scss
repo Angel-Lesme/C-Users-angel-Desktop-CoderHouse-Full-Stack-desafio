@@ -443,7 +443,7 @@ form{
             flex-direction: row;
             flex-wrap: nowrap;
             align-content: center;
-            justify-content: end;
+            justify-content: center;
             align-items: center;
                 li{
                 margin: 50px;
@@ -538,10 +538,10 @@ form{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin: 10px;
+        margin: 0px;
         border-top: solid 2px black;
         align-items: center;
-        gap: 10%;
+        gap: 11%;
         .texto-footer{
             padding-right: 0%;
         }
@@ -604,6 +604,15 @@ form{
                 padding: 0px;
                 font-weight: 400;
             }
+        }
+    }
+
+    .comentario{
+        width: auto;
+        textarea{
+            resize: horizontal;
+            width: 97%;
+            margin: 10px;
         }
     }
 }

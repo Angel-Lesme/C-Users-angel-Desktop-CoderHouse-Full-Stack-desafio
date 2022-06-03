@@ -293,7 +293,7 @@ form .row {
       flex-direction: row;
       flex-wrap: nowrap;
       align-content: center;
-      justify-content: end;
+      justify-content: center;
       align-items: center; }
       nav ul li {
         margin: 50px; }
@@ -348,10 +348,10 @@ form .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 0px;
     border-top: solid 2px black;
     align-items: center;
-    gap: 10%; }
+    gap: 11%; }
     footer .texto-footer {
       padding-right: 0%; }
   footer div .row {
@@ -389,4 +389,10 @@ form .row {
     margin-left: 0%; }
   .conteiner-card .card span {
     padding: 0px;
-    font-weight: 400; } }
+    font-weight: 400; }
+  .comentario {
+    width: auto; }
+    .comentario textarea {
+      resize: horizontal;
+      width: 97%;
+      margin: 10px; } }

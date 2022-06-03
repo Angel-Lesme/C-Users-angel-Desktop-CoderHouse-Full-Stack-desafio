@@ -352,11 +352,11 @@ form{
         .container-fluid{
             .row{
                 .col-1{
-                    width: 286px;
+                    width: auto;
                     img{
                         border-radius: 20px;
                         width: 51%;
-                        margin: 0px 0px 0px 101px;
+                        margin: 0px 0px 0px 35%;
                     }
                 }
             }
@@ -369,6 +369,7 @@ form{
         flex-wrap: wrap;
         margin: 10px;
         border-top: solid 2px black;
+        align-items: center;
         .texto-footer{
             padding-right: 0%;
         }
@@ -399,20 +400,29 @@ form{
         flex-wrap: nowrap;
         justify-content: center;
         margin: auto;
+        align-items: center;
         .card{
             background: white;
             width: 304px;
             height: 430px;
             border-radius: 8px;
-            box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+            box-shadow: 0 2px 2px rgba(0, 0, 0,0.2);
             overflow: hidden;
             margin: 0 0px 20px 11px;
             text-align: center;
             transition: all 0.25s;
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
+            align-items: center;
             justify-content: center;
+        }
+    }
+
+    .conteiner-card{
+        .card{
+            img{
+                margin-left: 0%;
+            }
         }
     }
 }

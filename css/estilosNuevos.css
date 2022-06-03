@@ -12,6 +12,9 @@ body {
   letter-spacing: 0.03em; }
 
 /* Header */
+nav .logo img {
+  width: 20%; }
+
 nav {
   background-color: #DBDBDB;
   width: 100%;
@@ -87,12 +90,19 @@ nav {
 footer {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin: 10px;
   border-top: solid 2px black;
-  gap: 26%; }
+  gap: 9%; }
   footer .texto-footer {
     padding-right: 0%; }
+
+footer .logo {
+  text-align: center; }
+  footer .logo img {
+    width: 30%;
+    margin: 0%;
+    padding: 0%; }
 
 footer div .row {
   width: 100%;
@@ -191,6 +201,9 @@ form .row {
     margin: 10px; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  nav .logo img {
+    width: 25%;
+    margin: 0px 0px 0px 30px; }
   nav {
     background-color: #DBDBDB;
     width: 100%;
@@ -347,16 +360,23 @@ form .row {
   footer {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: 0px;
     border-top: solid 2px black;
     align-items: center;
-    gap: 11%; }
+    gap: 0%; }
     footer .texto-footer {
-      padding-right: 0%; }
+      padding-right: 0%;
+      width: 60%; }
+  footer .logo {
+    text-align: center; }
+    footer .logo img {
+      width: 60%;
+      margin: 0%;
+      padding: 0%; }
   footer div .row {
     width: 100%;
-    margin-left: 0%; }
+    margin: 0px; }
     footer div .row .col {
       display: contents; }
       footer div .row .col img {
@@ -394,5 +414,5 @@ form .row {
     width: auto; }
     .comentario textarea {
       resize: horizontal;
-      width: 97%;
+      width: 95%;
       margin: 10px; } }

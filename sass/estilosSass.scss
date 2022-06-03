@@ -18,6 +18,7 @@ body{
 nav{
     background-color:#DBDBDB;
     width: 100%;
+    text-align: center;
         ul{
         list-style: none;
         display: flex;
@@ -135,8 +136,9 @@ footer{
     flex-wrap: wrap;
     margin: 10px;
     border-top: solid 2px black;
+    gap: 26%;
     .texto-footer{
-        padding-right: 56%;
+        padding-right: 0%;
     }
 }
 
@@ -294,6 +296,7 @@ form{
     nav{
         background-color:#DBDBDB;
         width: 100%;
+        text-align: center;
             ul{
             list-style: none;
             display: flex;
@@ -312,6 +315,7 @@ form{
             }   
         }    
     }
+
     .marcas-fav{
         .container-fluid{
             display: none;
@@ -422,6 +426,183 @@ form{
         .card{
             img{
                 margin-left: 0%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    nav{
+        background-color:#DBDBDB;
+        width: 100%;
+        text-align: center;
+            ul{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: end;
+            align-items: center;
+                li{
+                margin: 50px;
+                    a{
+                    text-decoration: none;
+                    text-align: center;
+                    color: black;
+                }
+            }   
+        }    
+    }  
+    
+    .marcas-fav{
+        .container-fluid{
+            width: 100%;
+            margin: 0px 0px 0px 0px;
+            .row{
+                width: 101%;
+                margin: 0%;
+                align-items: center;
+                justify-content: center;
+                .col-2{
+                    img{
+                        height: inherit;
+                        margin: auto;
+                        border-radius: 0%;
+                    }
+                }
+            }
+        }
+    
+    }
+    
+    .marcas-fav{
+        .container-fluid{
+            .row{
+                .adidas-logo{
+                    a{
+                        height: 113px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .imagen-descripcion-de-marcas{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        .container-fluid {
+            padding: 1px;
+            width: 90%;
+            margin: 8px;
+            margin-left: -32px;
+            .row{
+                .col{
+                    width: 0%;
+                    height: auto;
+                    margin: 0 0 0 28px;
+                    padding: 0%;
+                    img{
+                        margin-left: 1em;
+                        margin-right: 1em;
+                        border-radius: 20px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    
+    .imagen-descripcion-de-marcas{
+        .container-fluid{
+            .row{
+                .col-1{
+                    width: auto;
+                    margin: auto;
+                    img{
+                        border-radius: 20px;
+                        width: 65%;
+                        margin: 0px 0px 0px 20%;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 10px;
+        border-top: solid 2px black;
+        align-items: center;
+        gap: 10%;
+        .texto-footer{
+            padding-right: 0%;
+        }
+    }
+    
+    footer{
+        div{
+            .row{
+                width: 100%;
+                margin-left: 0%;
+                .col{
+                    display: contents;
+                    img{
+                        margin: 0 0 0 -16px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* HOMBRES / MUJERES / MARCAS */
+
+    .conteiner-card{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        .card{
+            background: white;
+            width: 304px;
+            height: 430px;
+            border-radius: 8px;
+            box-shadow: 0 2px 2px rgba(0, 0, 0,0.2);
+            overflow: hidden;
+            margin: 0 0px 20px 11px;
+            text-align: center;
+            transition: all 0.25s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    
+    .conteiner-card{
+        .card{
+            img{
+                margin-left: 0%;
+            }
+        }
+    }
+
+    .conteiner-card{
+        .card{
+            span{
+                padding: 0px;
+                font-weight: 400;
             }
         }
     }
